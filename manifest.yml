@@ -88,6 +88,12 @@ dependencies:
     md5: 58c3662a9f34e49a57e9542bce550243
     cf_stacks:
       - cflinuxfs2
+  - name: clang
+    version: 5.0.1
+    uri: http://releases.llvm.org/5.0.1/clang+llvm-5.0.1-x86_64-linux-gnu-ubuntu-14.04.tar.xz
+    md5: 7d51d018cba288c6f7b5ad9cc2c31bfc
+    cf_stacks:
+      - cflinuxfs2
 
 exclude_files:
   - .git/
